@@ -1,0 +1,150 @@
+*{
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#main{
+    background: red;
+    width: 800px;
+    height: 1140px;
+}
+
+    #header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+        #logo{
+            display: flex;
+            flex: 2 1 60%;
+            height: 150px; 
+        }
+
+        #log{
+            align-content: flex-end;
+            height: 150px;
+            width: auto;
+
+        }
+        #date{
+            background: white;
+            flex: 1 1 40%;
+        }
+
+    #title{
+        display: flex;
+        flex-flow: column nowrap;
+        align-content: center;
+                
+    }
+        h3{
+            flex-wrap: nowrap;
+            align-self: center;            
+            color: white;
+            width: auto;
+            font-size: 35px;
+            margin-top: 1px;
+        }
+        h1{
+            align-self: center;   
+            color: white;
+            width: auto;
+            font-size: 60px;
+            letter-spacing: 1px;
+        }
+    #promotions{
+            
+            display: flex;
+    }
+        #photo-people{
+            flex: 2;
+        }
+            img {
+                width: 400px;
+                height: 700px;
+                margin-bottom: -30px;
+            }
+        #offers{
+            flex: 2;            
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .contains-food{
+            display: flex;
+            flex-flow: column;
+            flex: 2 1 40%;
+        }
+
+footer{
+    
+}
+.footer{
+    letter-spacing: 0,5px;
+    text-align: center;
+    font-size: 12px;
+}
+p{
+    
+}
+#photo-1{
+    background: white;
+}
+#price1{
+    background: white;
+    width: 30%;
+}
+#photo-2{
+    background: white;
+}
+#price2{
+    background: white;
+    width: 30%;
+}
+#photo-3{
+    background: white;
+}
+#price3{
+    background: white;
+    width: 30%;
+}
+#photo-4{
+    background: white;
+}
+#price4{
+    background: white;
+    width: 30%;
+}#photo-5{
+    background: white;
+}
+#price5{
+    background: white;
+    width: 30%;
+}#photo-6{
+    background: white;
+}
+#price6{
+    background: white;
+    width: 30%;
+}#photo-7{
+    background: white;
+}
+#price7{
+    background: white;
+    width: 30%;
+}#photo-8{
+    background: white;
+}
+#price8{
+    background: white;
+    width: 30%;
+}
+#price9{
+    background: white;
+    width: 30%;
+}
+#photo-9{
+    background: white;
+}
